@@ -1,0 +1,113 @@
+body{
+    margin: 0%;
+    font-size: 20px;
+}
+
+#nav-bar ul{
+    list-style-type: none;
+    display: flex;
+    justify-content:end ;
+    
+}
+
+#nav-bar ul li a:link,#nav-bar a:link{
+    text-decoration: none;
+
+}
+
+#nav-bar a{
+    font-size: 30px;
+    color: white;
+}
+#nav-bar ul li a{
+    font-size: 20px;
+    
+}
+#nav-bar ul li{
+    padding-left: 2em
+}
+
+#nav-bar{
+    
+    background-color: blueviolet;
+    height: 100px;
+    
+}
+
+p,label{
+    display: flex;
+    justify-content: center;
+}
+
+#btn-div{
+    
+    margin-top: 4rem;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-bottom: 4rem;
+}
+
+#btn-div button{
+    border-radius: 2rem;
+    font-size: 24px;
+    width: 200px;
+    height: 40px;
+}
+
+.main-text{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+#btn-divZ{
+    margin-top: 4rem;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-bottom: 4rem;
+}
+#btn-divZ button{
+    border-radius: 2rem;
+    font-size: 24px;
+    width: 200px;
+    height: 40px;
+}
+
+#btn-divA{
+    margin-top: 4rem;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-bottom: 4rem;
+}
+#btn-divA button{
+    border-radius: 2rem;
+    font-size: 24px;
+    width: 200px;
+    height: 40px;
+}
+
+#btn-divX{
+    margin-top: 4rem;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-bottom: 4rem;
+}
+#btn-divX button{
+    border-radius: 2rem;
+    font-size: 24px;
+    width: 200px;
+    height: 40px;
+}
+
+#output-div{
+    border-radius: 2rem;
+    font-size: 24px;
+    width: 200px;
+    height: 40px;
+}
