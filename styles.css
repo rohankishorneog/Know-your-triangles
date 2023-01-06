@@ -106,8 +106,44 @@ p,label{
 }
 
 #output-div{
-    border-radius: 2rem;
+    display: flex;
+    align-items: center;
     font-size: 24px;
-    width: 200px;
-    height: 40px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.output-div{
+    text-align: center;
+}
+
+
+
+/*styling for footer*/
+
+.footer{
+    margin: 20rem 4rem 4rem 4rem
+}
+
+.footer-elements{
+    padding-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.footer h1{
+    font-size: 25px;
+}
+.footer h3{
+    font-size: 15px;
+}
+
+/*styling for logos*/
+
+.logo-div{
+    display: flex;
+}
+.logo-img{
+    width: 20px;
+    padding-left: 10px
 }

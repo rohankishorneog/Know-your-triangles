@@ -1,7 +1,7 @@
 const quizForm = document.querySelector("#quiz-form");
 const submitAnswerBtn = document.querySelector("#btn-divZ");
 const outputHere = document.querySelector("#output-div");
-const correctAnswers = ["60", "right angle", "equilateral" , "isoscales", "40°"];
+const correctAnswers = ["90", "right angle", "one right angle" , "isoscales", "40°"];
 
 function calculateScore() {
     let score = 0;
@@ -16,6 +16,8 @@ function calculateScore() {
     }
     
     outputHere.innerText = "Your score is " + score;
+    console.log( outputHere.innerText);
+    event.preventDefault();
 }
 
 submitAnswerBtn.addEventListener("click", calculateScore);
